@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Han Ossef">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Han Ossef</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/hanlogo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- iconen in de nav-->
+            <ul>
+                <li>
+                    <a href="index.html">Han Ossef</a>
+                </li>
+
+                <li>
+                    <a href="#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- span voor opmaak hamburger menu (word een toggle) -->
+            <button class="hamburger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- kopjes voor de hamburger menu-->
+        <section class="uitgeklapt_menu">
+            <ul>
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <!-- Section voor de mainimage -->
+        <section class="cover">
+            <h1 data-aos="zoom-in"> Hey, I'm Han.
+                I'm a Creative Front-End <span>designer</span>.</h1>
+
+            <section class="blocks" data-aos="zoom-in">
+                <div></div>
+                <div></div>
+            </section>
+        </section>
+
+        <!-- Section voor about -->
+        <section class="about" id="about">
+            <div>
+                <img data-aos="fade-right" src="images/han1.png" alt="Han">
+                <article>
+                    <h2 data-aos="fade-up">A bit about me</h2>
+                    <p data-aos="fade-up"> I'm Han and I currently live in <span>Amsterdam</span>, The Netherlands. I
+                        am a
+                        <span>Communication
+                            and
+                            Multi-Media Design student</span> at the University of Amsterdam of Applied Sciences. If You
+                        like my
+                        work,
+                        don't hesitate to reach out!</p>
+
+                    <h2 data-aos="fade-up">Things I like:</h2>
+
+                    <P data-aos="fade-up">Design, technology, planet, animals, sustainability, books, fashion, traveling
+                        and culture. </P>
+
+                    <h2 data-aos="fade-up">Fancy paper</h2>
+                    <a data-aos="fade-up" href="images/HanOssefCV.pdf">Resume</a>
+                </article>
+            </div>
+        </section>
+
+        <section data-aos="fade-down" class="dots">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <section class="works" id="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Responsive website</h2>
+                    <p data-aos="fade-right">Building a Nintendo Switch responsive website.</p>
+                    <a data-aos="fade-right" href="frontenddevelopment.html">Learn more &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/codedesktop.png" alt="works">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Illustrations</h2>
+                    <p data-aos="fade-right">Creating all kinds of illustrations.</p>
+                    <a data-aos="fade-right" href="illustrations.html">Learn more &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/Illuspace.png" alt="works">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Pawdate</h2>
+                    <p data-aos="fade-right"> UX-UI screendesigning for a multi-device application based on user needs.
+                    </p>
+                    <a data-aos="fade-right" href="pawdate.html">Learn more &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/pawdatedevices.png" alt="works">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Library application</h2>
+                    <p data-aos="fade-right">Visual design of a library application based on the identity of the
+                        municipality of Amsterdam.</p>
+                    <a data-aos="fade-right" href="libraryapplication.html">Learn more &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/Visual.png" alt="works">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h2>Contact</h2>
+
+        <ul id="contact">
+            <li><a href="https://www.linkedin.com/in/hanossef/" target="_blank"><img src=images/linkin.png alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/han.archives/" target="_blank"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="mailto:han.ossef@gmail.com"><img src="images/mail.png" alt="Mail"></a></li>
+        </ul>
+
+        <p>© 2021 Han Ossef</p>
+
+    </footer>
+
+    <!--om JS te koppelen-->
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+
+</html>

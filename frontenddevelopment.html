@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Han Ossef">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Han Ossef</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/hanlogo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- iconen in de nav-->
+            <ul>
+                <li>
+                    <a href="index.html">Han Ossef</a>
+                </li>
+
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- span voor opmaak hamburger menu (word een toggle) -->
+            <button class="hamburger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- kopjes voor de hamburger menu-->
+        <section class="uitgeklapt_menu">
+            <ul>
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="intro">
+            <h1>Front-end - Nintendo Switch</h1>
+            <img data-aos="zoom-in" src="images/nsalldevices.png" alt="Nintendo all devices">
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Assignment</h2>
+                    <p data-aos="fade-right">For a school assignment I had to make a responsive website based on an
+                        existing website. I decided to go for the Nintendo website. All content is from the Nintendo
+                        website.</p>
+                    <p data-aos="fade-right">The assignment was to make 2 different pages of a website with vanilla
+                        HTML, CSS and Javascript. The pages need to be responsive and have a focus on the surface plane.
+                    </p>
+
+                    <h2 data-aos="fade-right">Progress</h2>
+                    <p data-aos="fade-right">At first, I made a breakdown sheet of what I thought was right to use for
+                        the elements. During the process it changed because my knowledge about HTML got stronger while
+                        building the website.</p>
+                    <p data-aos="fade-right">I started with HTML basics for a mobile device. After that I styled the
+                        elements. When the mobile device was done, I decided to focus on the responsiveness. I
+                        put a break point at 48em and 64em so that my website is suitable for all devices.
+                        I also added dark-mode in the root for people that love dark-mode.</p>
+                    <a data-aos="fade-right" href="https://hanossef.github.io/blokweb/" target="_blank">Learn more on github &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/nsmobile.png" alt="works">
+            </div>
+        </section>
+        
+    </main>
+
+
+    <footer>
+
+        <h2>Contact</h2>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/hanossef/" target="_blank"><img src=images/linkin.png alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/han.archives/" target="_blank"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="mailto:han.ossef@gmail.com"><img src="images/mail.png" alt="Mail"></a></li>
+        </ul>
+
+        <p>© 2021 Han Ossef</p>
+
+    </footer>
+
+    <!--om JS te koppelen-->
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+
+</html>

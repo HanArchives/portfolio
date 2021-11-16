@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Han Ossef">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Han Ossef</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/hanlogo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- iconen in de nav-->
+            <ul>
+                <li>
+                    <a href="index.html">Han Ossef</a>
+                </li>
+
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- span voor opmaak hamburger menu (word een toggle) -->
+            <button class="hamburger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- kopjes voor de hamburger menu-->
+        <section class="uitgeklapt_menu">
+            <ul>
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="intro">
+            <h1>Illustrations</h1>
+            <img data-aos="zoom-in" src="images/Illuspace.png" alt="Adobe Illustrator">
+            <p data-aos="fade-right">I love making illustrations in Adobe Illustrator.</p>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Nintendo Switch</h2>
+                    <p data-aos="fade-right">This is made for a school assignment. The assignment was to create a 3D illustration in Adobe Illustrator.</p>
+                </article>
+                <img data-aos="zoom-in" src="images/Illu1.png" alt="Nintendo">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Jaden</h2>
+                    <p data-aos="fade-right">Album cover.</p>
+                </article>
+                <img data-aos="zoom-in" src="images/illu2.png" alt="Jaden">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Parasite</h2>
+                    <p data-aos="fade-right"> For a school assignment I had to illustrate a movie poster in Adobe Illustrator. I love the movie poster that was designed by Canadian artist Marie Bergeron for the movie Parasite. I decided to recreate her poster in Adobe Illustrator.</p>
+                </article>
+                <img data-aos="zoom-in" src="images/Illu3.png" alt="Parasite">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Space</h2>
+                    <p data-aos="fade-right">My Animal Crossing character in space.</p>
+                </article>
+                <img data-aos="zoom-in" src="images/Illu4.png" alt="Space">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Space helmet</h2>
+                    <p data-aos="fade-right">I created myself in an anime character with a space helmet on.</p>
+                </article>
+                <img data-aos="zoom-in" src="images/spacesuit.png" alt="Spacesuit">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h2>Contact</h2>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/hanossef/" target="_blank"><img src=images/linkin.png alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/han.archives/" target="_blank"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="mailto:han.ossef@gmail.com"><img src="images/mail.png" alt="Mail"></a></li>
+        </ul>
+
+        <p>© 2021 Han Ossef</p>
+
+    </footer>
+
+    <!--om JS te koppelen-->
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+
+</html>

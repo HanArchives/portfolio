@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Han Ossef">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Han Ossef</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/hanlogo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- iconen in de nav-->
+            <ul>
+                <li>
+                    <a href="index.html">Han Ossef</a>
+                </li>
+
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- span voor opmaak hamburger menu (word een toggle) -->
+            <button class="hamburger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- kopjes voor de hamburger menu-->
+        <section class="uitgeklapt_menu">
+            <ul>
+                <li>
+                    <a href="index.html#works">Work</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="intro">
+            <h1>Library application</h1>
+            <img data-aos="zoom-in" src="images/Visual.png" alt="Screenflow Pawdate">
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Assignment</h2>
+                    <p data-aos="fade-right">For a school assignment I created a visual design for a user interface
+                        for searching one or more books from the school library for students. I had to Design in the
+                        Amsterdam.nl corporate identity but could adapt it for the target group. The design is made for
+                        a tablet in landscape format. </p>
+                </article>
+                <img data-aos="zoom-in" src="images/Visualkindofbook.png" alt="visual">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Key Principles</h2>
+                    <p data-aos="fade-right">When designing this application, I kept the key principles in mind. All
+                        screens have one primary action per screen, are consistent and appearance follows behavior. I
+                        only show on the screen what is necessary. I did this so the user won’t be overstimulated. With
+                        a strong visual hierarchy, I tried to steer the user the direction I want them to go. I applied the zero
+                        state to the wish list. When empty, the user is directed to start searching for books
+                        and favorite them. </p>
+                </article>
+                <img data-aos="zoom-in" src="images/Visualwishlistemptystate.png" alt="pawdate">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Design Principles</h2>
+                    <p data-aos="fade-right">I designed the feedforward to be small so that the primary action is the
+                        dominance. That is why the primary action is bigger. Important elements are dominating the
+                        design. The call-to-action buttons and the book covers stand out more than the rest of the
+                        design. </p>
+                </article>
+                <img data-aos="zoom-in" src="images/Visualwishlist.png" alt="pawdate">
+            </div>
+        </section>
+
+        <section class="works">
+            <div>
+                <article>
+                    <h2 data-aos="fade-right">Complete Design</h2>
+                    <p data-aos="fade-right">I redesigned this application after several design critiques. For the complete design, click on Learn More. </p>
+                    <a data-aos="fade-right" href="images/vid.pdf">Learn more &#8594;</a>
+                </article>
+                <img data-aos="zoom-in" src="images/Visualbook.png" alt="Complete Design">
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        
+        <h2>Contact</h2>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/hanossef/" target="_blank"><img src=images/linkin.png alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/han.archives/" target="_blank"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="mailto:han.ossef@gmail.com"><img src="images/mail.png" alt="Mail"></a></li>
+        </ul>
+
+        <p>© 2021 Han Ossef</p>
+
+    </footer>
+
+    <!--om JS te koppelen-->
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+
+</html>
