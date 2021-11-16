@@ -10,10 +10,9 @@
 }
 
 @font-face {
-  src: url(..font/Spoof-Regular.woff);
-  font-family: 'spoof', Arial, Helvetica, sans-serif;
+  src: url(../font/Spoof-Regular.woff);
+  font-family: "spoof";
 }
-
 
 /********************/
 /* CODE FOR "ROOT"  */
@@ -39,6 +38,7 @@
 body {
   position: relative;
   background-color: var(--background-color-black);
+  font-family: "spoof", Arial, Helvetica, sans-serif;
 }
 
 
