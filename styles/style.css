@@ -386,9 +386,8 @@ nav li:nth-of-type(4) {
 
 .cover h1 {
   position: absolute;
-  width: 70%;
   top: 1em;
-  left: 3em;
+  left: 0;
   right: 0;
 
 
