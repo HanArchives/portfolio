@@ -82,7 +82,7 @@ In dag 1 heb ik inspiratie gezocht voor mijn portfolio website. Er zijn vele moo
 ### Screenshot(s) van eind resultaat
 
 <p>Desktop</p>
-<img src="images/desk1.png" width="375px" alt="Dektop">
+<img src="images/desk1.png" width="375px" alt="Desktop">
 
 <p>Desktop</p>
 <img src="images/desk2.png" width="375px" alt="Desktop">
@@ -94,7 +94,7 @@ In dag 1 heb ik inspiratie gezocht voor mijn portfolio website. Er zijn vele moo
 <img src="images/mob2.png" width="375px" alt="Mobiel">
 
 <p>Tablet</p>
-<img src="images/tablet.png" width="375px" alt="Tablet">
+<img src="images/tablet1.png" width="375px" alt="Tablet">
 
 </details>
 
