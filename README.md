@@ -75,9 +75,6 @@ In dag 1 heb ik inspiratie gezocht voor mijn portfolio website. Er zijn vele moo
 ### Stand van zaken
 
 <p> Laate kleine dingentjes aangepast voor een mooiere lay-out en nog beter responsive gemaakt</p>
-<img src="#" width="375px" alt="...">
-
-
 
 ### Screenshot(s) van eind resultaat
 
