@@ -83,14 +83,10 @@ In dag 1 heb ik inspiratie gezocht voor mijn portfolio website. Er zijn vele moo
 
 <p>Desktop</p>
 <img src="images/desk1.png" width="375px" alt="Desktop">
-
-<p>Desktop</p>
 <img src="images/desk2.png" width="375px" alt="Desktop">
 
 <p>Mobiel</p>
 <img src="images/mob1.png" width="375px" alt="Mobiel">
-
-<p>Mobiel</p>
 <img src="images/mob2.png" width="375px" alt="Mobiel">
 
 <p>Tablet</p>
